@@ -16,7 +16,6 @@ func (h HttpHandler) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 	//// write `data` to response
 	//res.Write(data)
 
-
 	// write `Hello` using `io.WriteString` function
 	io.WriteString(res, "Hello")
 	// write `World` using `fmt.Fprint` function
